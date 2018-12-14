@@ -1,0 +1,28 @@
+Extract flutter zip put to path C:\
+For setting up
+Environment variables -> find user variables ->Path add flutter\bin
+
+Installed Android Studio ( needed for windows )
+Android v. 28 license gradle - Android Studio v. 3.2.1 
+
+Installed JRE 1.8 & JDK 1.8 for SDK Licenses on Appdata
+
+Running on Mobile Device
+Android Device -> Developer Option -> Usb Debugging
+
+To Fix Gradle Issues
+Flutter create app 
+Directory -> android -> Go to build.gradle 
+	  -> Change sdk licene is 27 change build.gradle to sdkversion 28
+
+In order to fix licenses do flutter doctor 
+-> check version of Android SDK for android devices
+-> if sdk license is 27 on build.gradle
+-> change build.gradle to sdk version 28
+
+For flutter doctor warnings on license unknown
+
+Install java 8 to run sdkmanager.bat license accept 
+setup JAVA_HOME on environment variables
+C:\Users\{user}\AppData\Local\Android\Sdk\tools\bin
+sdkmanager --licenses
