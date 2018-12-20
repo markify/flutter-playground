@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+flutter create "name" - create generic flutter app
+flutter doctor - check status
+flutter run - start 
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
