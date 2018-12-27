@@ -4,7 +4,11 @@ A new Flutter project.
 
 flutter create "name" - create generic flutter app
 flutter doctor - check status
-flutter run - start 
+flutter run - start  
+
+- Android studio -  
+File -> Settings -> Preference  
+Install Plugins flutter and dart  
 
 resource   
 flutter webviews  
