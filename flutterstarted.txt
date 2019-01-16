@@ -20,6 +20,9 @@ In order to fix licenses do flutter doctor
 -> if sdk license is 27 on build.gradle
 -> change build.gradle to sdk version 28
 
+VSCODE install Dart, Flutter, Awesome Flutter Snippet     
+Android Studio -> Settings -> Plugins to install - ( Dart , Flutter )    
+
 For flutter doctor warnings on license unknown
 
 Install java 8 to run sdkmanager.bat license accept 
